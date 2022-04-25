@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MarcusVTAlmeida/Rede-Scripts.git/static/css/main.4cb2108f.css",
+    "main.js": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/main.c9e89cf5.js",
+    "static/js/787.7097793b.chunk.js": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/787.7097793b.chunk.js",
+    "index.html": "/MarcusVTAlmeida/Rede-Scripts.git/index.html",
+    "main.4cb2108f.css.map": "/MarcusVTAlmeida/Rede-Scripts.git/static/css/main.4cb2108f.css.map",
+    "main.c9e89cf5.js.map": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/main.c9e89cf5.js.map",
+    "787.7097793b.chunk.js.map": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/787.7097793b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cb2108f.css",
+    "static/js/main.c9e89cf5.js"
+  ]
+}
