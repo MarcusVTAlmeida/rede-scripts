@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "mdb-react-ui-kit": "^1.6.0",
+    "mdbreact": "^5.1.0",
     "react": "^18.0.0",
+    "react-clipboard.js": "^2.0.16",
     "react-dom": "^18.0.0",
+    "react-dropdown-now": "^5.0.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
