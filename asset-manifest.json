@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MarcusVTAlmeida/Rede-Scripts.git/static/css/main.4cb2108f.css",
-    "main.js": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/main.c9e89cf5.js",
-    "static/js/787.7097793b.chunk.js": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/787.7097793b.chunk.js",
-    "index.html": "/MarcusVTAlmeida/Rede-Scripts.git/index.html",
-    "main.4cb2108f.css.map": "/MarcusVTAlmeida/Rede-Scripts.git/static/css/main.4cb2108f.css.map",
-    "main.c9e89cf5.js.map": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/main.c9e89cf5.js.map",
-    "787.7097793b.chunk.js.map": "/MarcusVTAlmeida/Rede-Scripts.git/static/js/787.7097793b.chunk.js.map"
+    "main.css": "/marcusvtalmeida/rede-scripts.git/static/css/main.4cb2108f.css",
+    "main.js": "/marcusvtalmeida/rede-scripts.git/static/js/main.6b61dd1c.js",
+    "static/js/787.7097793b.chunk.js": "/marcusvtalmeida/rede-scripts.git/static/js/787.7097793b.chunk.js",
+    "index.html": "/marcusvtalmeida/rede-scripts.git/index.html",
+    "main.4cb2108f.css.map": "/marcusvtalmeida/rede-scripts.git/static/css/main.4cb2108f.css.map",
+    "main.6b61dd1c.js.map": "/marcusvtalmeida/rede-scripts.git/static/js/main.6b61dd1c.js.map",
+    "787.7097793b.chunk.js.map": "/marcusvtalmeida/rede-scripts.git/static/js/787.7097793b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cb2108f.css",
-    "static/js/main.c9e89cf5.js"
+    "static/js/main.6b61dd1c.js"
   ]
 }
