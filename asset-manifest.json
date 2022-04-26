@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rede-scripts/static/css/main.4cb2108f.css",
-    "main.js": "/rede-scripts/static/js/main.1b7f559a.js",
+    "main.js": "/rede-scripts/static/js/main.f0ff28f5.js",
     "static/js/787.7097793b.chunk.js": "/rede-scripts/static/js/787.7097793b.chunk.js",
     "index.html": "/rede-scripts/index.html",
     "main.4cb2108f.css.map": "/rede-scripts/static/css/main.4cb2108f.css.map",
-    "main.1b7f559a.js.map": "/rede-scripts/static/js/main.1b7f559a.js.map",
+    "main.f0ff28f5.js.map": "/rede-scripts/static/js/main.f0ff28f5.js.map",
     "787.7097793b.chunk.js.map": "/rede-scripts/static/js/787.7097793b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cb2108f.css",
-    "static/js/main.1b7f559a.js"
+    "static/js/main.f0ff28f5.js"
   ]
 }
