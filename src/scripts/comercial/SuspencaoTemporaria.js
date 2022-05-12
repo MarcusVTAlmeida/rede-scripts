@@ -10,8 +10,7 @@ class SuspensaoTemporaria extends React.Component {
         this.handleChange9 = this.handleChange9.bind(this);
         this.getTextSute = this.getTextSute.bind(this);
         this.state = {
-            motivo: '',
-            reativacao: '',
+            motivo: '',           
             periodo: '',
             debito: '',
             documento: '',
@@ -40,9 +39,6 @@ R: ${this.state.motivo}
 
 PERIODO: ${this.state.periodo}
 
-Qual é o motivo da reativação?
-R: ${this.state.reativacao}
-
 Há algum débito pendente?
 R: ${this.state.debito}
 
@@ -69,7 +65,6 @@ Informe qual o tipo de comprovante de solicitação:
         this.setState({ mcontato: '' });
         this.setState({ motivo: '' });
         this.setState({ periodo: '' });
-        this.setState({ reativacao: '' });
         this.setState({ debito: '' });
         this.setState({ documento: '' });
         this.setState({ idhuggy: '' });
@@ -174,21 +169,18 @@ Informe qual o tipo de comprovante de solicitação:
                     <input type='radio' id='periodo' name='periodo' value='120'
                         checked={this.state.periodo === '120'} onChange={(e) => this.setState({ periodo: e.target.value })} /> 120</div>
                 </label>
-                <br />
-                <label>
-                    <b>
-                        Qual é o motivo da reativação?
-                    </b>
-                    <br />
-                    <input type="text" style={{ width:400 }}name="reativacao" value={this.state.reativacao} onChange={(e) => this.setState({ reativacao: e.target.value })} />
-                </label>
-                <br />
+                <br />               
                 <label>
                     <b>
                         Há algum débito pendente?
-                    </b>
-                    <br />
-                    <input type="text" style={{ width:400 }}name="debito" value={this.state.debito} onChange={(e) => this.setState({ debito: e.target.value })} />
+                    </b>   
+                    <br />                
+                    <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <input type='radio' id='debito' name='debito' value='Sim'
+                        checked={this.state.debito === 'Sim'} onChange={(e) => this.setState({ debito: e.target.value })} /> Sim</div>
+                      <div style={{ display: 'inline-block', marginRight: '10px' }}>
+                    <input type='radio' id='debito' name='debito' value='Nao'
+                        checked={this.state.debito === 'Nao'} onChange={(e) => this.setState({ debito: e.target.value })} /> Não</div>
                 </label>
                 <br />
                 <label>

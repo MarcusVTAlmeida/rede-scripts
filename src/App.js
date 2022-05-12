@@ -29,7 +29,6 @@ import SuspencaoTemporaria from "./scripts/comercial/SuspencaoTemporaria"
 import TransferenciaEndereco from "./scripts/comercial/TransferenciaEndereco"
 import Upgrade from "./scripts/comercial/Upgrade"
 
-//https://www.google.com/maps/d/u/0/viewer?ll=-20.732924250899625%2C-51.59663862522035&z=18&mid=1o48k_07Mg45zpT3L9uLzXoNEAu8
 
 class App extends React.Component {
   constructor(props) {
@@ -38,10 +37,7 @@ class App extends React.Component {
     };
   }
 
-
-
   render() {
-
     const { showingDesc } = this.state;
     const { showingLent } = this.state;
     const { showingQued } = this.state;

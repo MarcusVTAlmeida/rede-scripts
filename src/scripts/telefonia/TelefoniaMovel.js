@@ -22,7 +22,7 @@ class TelefoniaMovel extends React.Component {
     }
 
     getTextMovel() {
-        return `TELEFONIA FIXA
+        return `TELEFONIA MÓVEL
 
 Descreva detalhadamente a reclamação/solicitação do cliente.
 R: ${this.state.descricao}        

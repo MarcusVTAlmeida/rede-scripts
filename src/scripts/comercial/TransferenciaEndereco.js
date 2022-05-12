@@ -59,21 +59,9 @@ Meio de contato: ${this.state.mcontato}
     
 - Checklist de confirmação de titularidade:
 [ ${this.state.vencimento} ] Data de vencimento	[ ${this.state.endereco} ] Endereço
-[ ${this.state.huggy} ] ID Huggy: ${this.state.idhuggy}
-[ ${this.state.documento} ] Documento do cliente com foto.`;
+[ ${this.state.huggy} ] ID Huggy: ${this.state.idhuggy}`;
     }
 
-    toggleChangeDoc = () => {
-        this.setState({
-            isCheckedDoc: !this.state.isCheckedDoc,
-        });
-        if (this.state.isCheckedDoc === false) {
-            this.setState({ documento: 'X' })
-        }
-        else {
-            this.setState({ documento: '' })
-        }
-    }
 
     toggleChangeHuggy = () => {
         this.setState({
@@ -123,7 +111,6 @@ Meio de contato: ${this.state.mcontato}
         this.setState({ cidade: '' });
         this.setState({ estado: '' });
         this.setState({ complemento: '' });
-        this.setState({ documento: '' });
         this.setState({ idhuggy: '' });
         this.setState({ vencimento: '' });
         this.setState({ endereco: '' });
@@ -146,22 +133,25 @@ Meio de contato: ${this.state.mcontato}
                         - Endereço correto:
                         <br />
                         CEP:
-                        <input type="text" style={{ width:400 }}name="cep" value={this.state.cep} onChange={(e) => this.setState({ cep: e.target.value })} />
+                        <input type="text" style={{ width: 400 }} name="cep" value={this.state.cep} onChange={(e) => this.setState({ cep: e.target.value })} />
                         <br />
                         LOGRADOURO/RUA:
-                        <input type="text" style={{ width:400 }}name="rua" value={this.state.rua} onChange={(e) => this.setState({ rua: e.target.value })} />
+                        <input type="text" style={{ width: 400 }} name="rua" value={this.state.rua} onChange={(e) => this.setState({ rua: e.target.value })} />
                         <br />
                         NÚMERO:
-                        <input type="text" style={{ width:400 }}name="numero" value={this.state.numero} onChange={(e) => this.setState({ numero: e.target.value })} />
+                        <input type="text" style={{ width: 400 }} name="numero" value={this.state.numero} onChange={(e) => this.setState({ numero: e.target.value })} />
                         <br />
                         BAIRRO:
-                        <input type="text" style={{ width:400 }}name="bairro" value={this.state.bairro} onChange={(e) => this.setState({ bairro: e.target.value })} />
+                        <input type="text" style={{ width: 400 }} name="bairro" value={this.state.bairro} onChange={(e) => this.setState({ bairro: e.target.value })} />
                         <br />
                         CIDADE:
-                        <input type="text" style={{ width:400 }}name="cidade" value={this.state.cidade} onChange={(e) => this.setState({ cidade: e.target.value })} />
+                        <input type="text" style={{ width: 400 }} name="cidade" value={this.state.cidade} onChange={(e) => this.setState({ cidade: e.target.value })} />
                         <br />
                         ESTADO:
-                        <input type="text" style={{ width:400 }}name="estado" value={this.state.estado} onChange={(e) => this.setState({ estado: e.target.value })} />
+                        <input type="text" style={{ width: 400 }} name="estado" value={this.state.estado} onChange={(e) => this.setState({ estado: e.target.value })} />
+                        <br />
+                        COMPLEMENTO:
+                        <input type="text" style={{ width: 400 }} name="complemento" value={this.state.complemento} onChange={(e) => this.setState({ complemento: e.target.value })} />
                     </b>
                 </label>
                 <br />
@@ -196,7 +186,7 @@ Meio de contato: ${this.state.mcontato}
                         Contato Principal:
                     </b>
                     <br />
-                    <input type="text" style={{ width:400 }}name="contato1" value={this.state.contato1} onChange={(e) => this.setState({ contato1: e.target.value })} />
+                    <input type="text" style={{ width: 400 }} name="contato1" value={this.state.contato1} onChange={(e) => this.setState({ contato1: e.target.value })} />
                 </label>
                 <br />
                 <label>
@@ -204,7 +194,7 @@ Meio de contato: ${this.state.mcontato}
                         Contato 2:
                     </b>
                     <br />
-                    <input type="text" style={{ width:400 }}name="contato2" value={this.state.contato2} onChange={(e) => this.setState({ contato2: e.target.value })} />
+                    <input type="text" style={{ width: 400 }} name="contato2" value={this.state.contato2} onChange={(e) => this.setState({ contato2: e.target.value })} />
                 </label>
                 <br />
                 <label>
@@ -234,9 +224,8 @@ Meio de contato: ${this.state.mcontato}
                 <div style={{ display: 'inline-block', marginRight: '10px' }}>
                     <input type="checkbox" onChange={this.toggleChangeEnde} checked={this.state.isCheckedEnde} /> Endereço</div>
                 <br />
-                <input type="checkbox" onChange={this.toggleChangeHuggy} checked={this.state.isCheckedHuggy} /> ID Huggy: <input type="text" style={{ width:400 }}name="idhuggy" value={this.state.idhuggy} onChange={(e) => this.setState({ idhuggy: e.target.value })} />
+                <input type="checkbox" onChange={this.toggleChangeHuggy} checked={this.state.isCheckedHuggy} /> ID Huggy: <input type="text" style={{ width: 400 }} name="idhuggy" value={this.state.idhuggy} onChange={(e) => this.setState({ idhuggy: e.target.value })} />
                 <br />
-                <input type="checkbox" onChange={this.toggleChangeDoc} checked={this.state.isCheckedDoc} /> Documento do titular com foto.
                 <div style={{ textAlign: 'center' }}>
                     <Clipboard option-text={this.getTextTran}>
                         COPIAR

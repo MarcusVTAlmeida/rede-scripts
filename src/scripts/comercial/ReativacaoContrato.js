@@ -240,6 +240,9 @@ Informe qual o tipo de comprovante de solicitação:
                         <br />
                         ESTADO:
                         <input type="text" style={{ width:400 }}name="estado" value={this.state.estado} onChange={(e) => this.setState({ estado: e.target.value })} />
+                        <br />
+                        COMPLEMENTO:
+                        <input type="text" style={{ width:400 }}name="complemento" value={this.state.complemento} onChange={(e) => this.setState({ complemento: e.target.value })} />
                     </b>
                 </label>
                 <br />

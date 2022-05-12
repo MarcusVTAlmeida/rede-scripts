@@ -33,14 +33,16 @@ class LentidaoQuedas extends React.Component {
 
 PROCEDIMENTOS EFETUADOS (teste de banda, troca de canal): ${this.state.procedimento}
 
-Qual melhor horário ou período para receber o retorno do time do Suporte?
+Qual melhor horário ou período para receber o retorno do time dos Técnicos?
 R: ${this.state.horario}
 
 Contato Principal: ${this.state.contato1}
 Contato 2: ${this.state.contato2}
 Meio de contato: ${this.state.mcontato}
 
-Obs: ${this.state.obs}`;
+Obs: ${this.state.obs}
+
+`;
     }
 
     handleChange9() {

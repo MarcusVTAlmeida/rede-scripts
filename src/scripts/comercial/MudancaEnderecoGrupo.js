@@ -167,6 +167,9 @@ Checklist de confirmação de titularidade:
                         <br />
                         ESTADO:
                         <input type="text" style={{ width:400 }}name="aEstado" value={this.state.aEstado} onChange={(e) => this.setState({ aEstado: e.target.value })} />
+                        <br />
+                        COMPLEMENTO:
+                        <input type="text" style={{ width:400 }}name="aComplemento" value={this.state.aComplemento} onChange={(e) => this.setState({ aComplemento: e.target.value })} />
                     </b>
                 </label>
                 <br />
@@ -192,6 +195,9 @@ Checklist de confirmação de titularidade:
                         <br />
                         ESTADO:
                         <input type="text" style={{ width:400 }}name="estado" value={this.state.estado} onChange={(e) => this.setState({ estado: e.target.value })} />
+                        <br />
+                        COMPLEMENTO:
+                        <input type="text" style={{ width:400 }}name="complemento" value={this.state.complemento} onChange={(e) => this.setState({ complemento: e.target.value })} />
                     </b>
                 </label>
                 <br />

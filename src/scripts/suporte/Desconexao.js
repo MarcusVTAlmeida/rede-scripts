@@ -50,7 +50,8 @@ Contato 2: ${this.state.contato2}
 Meio de contato: ${this.state.mcontato}  
 
 - Alertou o cliente, que é necessário atender o retorno do time de Suporte?
-R: ${this.state.alertou}`;
+R: ${this.state.alertou}
+`;
     }
 
     handleChange9() {

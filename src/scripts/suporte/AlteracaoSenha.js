@@ -23,8 +23,7 @@ class AlteracaoSenha extends React.Component {
     }
 
     getTextSenh() {
-        return `      
-        ALTERAÇÃO DE SSID/SENHA
+        return `ALTERAÇÃO DE SSID/SENHA
     
 - Qual o modelo/marca do roteador?
 R: ${this.state.modelo}
